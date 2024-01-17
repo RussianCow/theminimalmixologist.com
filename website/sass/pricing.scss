@@ -1,0 +1,17 @@
+@import "./colors.scss";
+@import "./utils.scss";
+
+.markdown-content {
+	h2 {
+		text-decoration: underline;
+	}
+
+	h3 {
+		display: flex;
+		justify-content: space-between;
+
+		.right {
+			text-align: right;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "the-minimal-mixologist"
+version = "0.1.0"
+description = ""
+authors = ["Sasha Chedygov <sasha@chedygov.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-tfvars = "0.1.0"
+boto3 = "1.34.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

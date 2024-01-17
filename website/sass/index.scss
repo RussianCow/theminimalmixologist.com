@@ -1,0 +1,42 @@
+@import "./colors.scss";
+@import "./fonts.scss";
+@import "./utils.scss";
+@import "./vars.scss";
+
+body {
+	// background-color: #002D1B;
+	// background-image: url('/cocktail-background-green.jpg');
+	// background-size: 1200px 800px;
+	// background-position: 500px 20px;
+	// background-repeat: no-repeat;
+}
+
+.marketing {
+	margin-top: 20px;
+	@media (min-width: ($mobile-width + 1px)) {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: pixels-to-rem(48);
+		line-height: 1.1;
+		text-decoration: none;
+
+		em {
+			font-style: normal;
+			color: $accent-color-primary;
+		}
+	}
+
+	h2 {
+		max-width: 480px;
+		margin: auto;
+		font-weight: normal;
+		margin-bottom: 20px;
+		font-family: $font-serif;
+	}
+
+	button {
+		max-width: 480px;
+	}
+}
