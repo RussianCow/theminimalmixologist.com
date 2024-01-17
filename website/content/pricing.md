@@ -6,6 +6,8 @@ template = "pricing.html"
 
 We charge a base event fee of $300 to cover our fixed costs. Pricing for individual beverages and cocktail tastings is listed below. All of our cocktails are priced per serving based on which of the below categories they fall into.
 
+[Click here to read the fine print.](/pricing/fine-print)
+
 ### The Classics <span class="right">$8</span>
 
 This includes most of your well-known cocktails, both vintage and modern, with no modifications. Anything from a Margarita or Daiquiri to an Old Fashioned or Manhattan goes here.
@@ -28,4 +30,6 @@ We will happily supply non-cocktail beverages at a 20% markup over retail price.
 
 ---
 
-Convinced yet? Check out the [fine print](/pricing/fine-print) or [book us now](mailto:hello@theminimalmixologist.com) for your next event.
+## Convinced Yet?
+
+Check out the [fine print](/pricing/fine-print) or [book us now](mailto:hello@theminimalmixologist.com) for your next event.

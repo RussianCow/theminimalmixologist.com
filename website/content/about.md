@@ -9,6 +9,8 @@ Hi! I'm Sasha, owner and chief bartender at The Minimal Mixologist. I'm a softwa
 
 ## Our Ethos
 
+### Sustainable Bartending
+
 We strongly believe in sustainable and ethical bartending, and these practices are part of our core at The Minimal Mixologist. With every cocktail we make, we focus on reducing waste, water usage, and our carbon footprint.
 
 Here are some examples of our sustainability practices:
@@ -16,6 +18,10 @@ Here are some examples of our sustainability practices:
 * Utilizing as much of our fresh ingredients as possible, including skins and seeds. For example, with citrus, we use techniques like [oleo saccharum](https://www.seriouseats.com/cocktail-101-how-to-make-oleo-saccharum-lemon-oli-for-punch-wondrich) and ["super juice"](https://www.youtube.com/watch?v=2RA3AaCO7A8) to make use of the peels as well as the juice of each fruit; for mangoes, we make a syrup out of the skins and seeds. Where possible, we dehydrate and grind spent skins and use them as part of cocktail rims.
 * Using more sustainable alternatives to common ingredients. For example, almonds traditionally make up the base for [orgeat](https://www.thespruceeats.com/what-is-orgeat-syrup-760284) but require an exceptional amount of water to grow—a single almond [takes about 1.1 gallons](https://www.motherjones.com/environment/2014/02/wheres-californias-water-going/), which means a typical batch of orgeat might use over 160 gallons of water. We instead prefer to make orgeat out of much more ecologically sound ingredients such as [peanuts](https://www.nationalpeanutboard.org/news/treading-lightly-water-footprint-peanuts.htm), pumpkin seeds, or pistachios.
 * Avoiding animal products whenever possible, but sourcing them from ethical farmers when necessary. These days, there are a plethora of plant-based alternatives to ingredients like eggs and butter that work just as well without the ethical concerns.
+
+### No Hidden Fees, No Surprises
+
+As customers, we hate businesses that charge bullshit fees and are generally opaque with their pricing. That's why our [pricing structure](/pricing) is as transparent as possible, and we will never surprise you with additional costs that you weren't expecting.
 
 ---
 
