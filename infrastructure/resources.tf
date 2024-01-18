@@ -129,7 +129,7 @@ resource "aws_cloudfront_distribution" "www" {
   enabled = true
   is_ipv6_enabled = true
   default_root_object = aws_s3_bucket_website_configuration.www.index_document[0].suffix
-
+  http_version = "http2and3"
   aliases = ["www.${local.domain_name}"]
 
   default_cache_behavior {
@@ -168,7 +168,7 @@ resource "aws_cloudfront_distribution" "root" {
 
   enabled = true
   is_ipv6_enabled = true
-
+  http_version = "http2and3"
   aliases = [local.domain_name]
 
   default_cache_behavior {
