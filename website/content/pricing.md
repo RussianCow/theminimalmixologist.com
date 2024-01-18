@@ -4,7 +4,7 @@ template = "pricing.html"
 
 # Pricing
 
-We charge a base event fee of $300 to cover our fixed costs. Pricing for individual beverages and cocktail tastings is listed below. All of our cocktails are priced per serving based on which of the below categories they fall into.
+We charge a base event fee of $300 to cover our fixed costs. Beverage pricing is listed below. All of our cocktails are priced per serving depending on which of the below categories they fall into.
 
 [Click here to read the fine print.](/pricing/fine-print)
 
