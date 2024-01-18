@@ -1,6 +1,5 @@
 .terraform
 *.tfvars
-!sample.tfvars
 *.tfstate
 *.tfstate.backup
 .terraform.tfstate.lock.info

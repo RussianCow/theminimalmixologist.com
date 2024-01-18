@@ -1,0 +1,55 @@
+name: Build and deploy
+on:
+  push:
+    branches:
+      - main
+
+env:
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY }}
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: "1.7.0"
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Set up Python virtual environment
+        uses: abatilo/actions-poetry@v3
+        with:
+          python-version: 3.11
+
+      - name: Set up Python dependency cache
+        uses: actions/cache@v3
+        with:
+          path: ./.venv
+          key: venv-${{ hashFiles('poetry.lock') }}
+
+      - name: Install Python dependencies
+        run: poetry install --no-root
+
+      - name: Apply Terraform configuration
+        run: |
+          cd infrastructure
+          terraform init
+          terraform apply -auto-approve
+
+      - name: Build website using Zola
+        uses: shalzz/zola-deploy-action@v0.18.0
+        env:
+          BUILD_DIR: website
+          BUILD_ONLY: true
+
+      - name: Deploy to S3 and CloudFront
+        run: poetry run ./upload.py

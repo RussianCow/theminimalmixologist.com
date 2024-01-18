@@ -7,21 +7,14 @@ import pathlib
 
 import boto3
 from botocore.config import Config
-import tfvars
 
 out_dir = 'website/public'
 bucket_name = 'www.theminimalmixologist.com'
 region_name = 'us-west-2'
-tfvars_file = 'infrastructure/prod.tfvars'
 
-secrets = tfvars.LoadSecrets(tfvars_file)
-aws_keys = {
-    'aws_access_key_id': secrets['aws_access_key'],
-    'aws_secret_access_key': secrets['aws_secret_key'],
-}
 config = Config(region_name=region_name)
-s3_client = boto3.client('s3', config=config, **aws_keys)
-cf_client = boto3.client('cloudfront', config=config, **aws_keys)
+s3_client = boto3.client('s3', config=config)
+cf_client = boto3.client('cloudfront', config=config)
 
 
 def list_existing_objects():
