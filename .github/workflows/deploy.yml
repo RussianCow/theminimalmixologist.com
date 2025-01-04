@@ -28,7 +28,7 @@ jobs:
       - name: Set up Python virtual environment
         uses: abatilo/actions-poetry@v3
         with:
-          python-version: 3.11
+          poetry-version: 1.8.4
 
       - name: Set up Python dependency cache
         uses: actions/cache@v3
