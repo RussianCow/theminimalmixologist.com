@@ -201,6 +201,40 @@ button {
 	}
 }
 
+figure {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+
+	img {
+		display: block;
+		width: 100%;
+		border: 4px solid $accent-color-primary;
+		border-radius: $border-radius-large;
+		box-sizing: border-box;
+	}
+
+	figcaption {
+		display: inline;
+		font-size: pixels-to-rem(13);
+		background-color: $accent-color-primary;
+		padding: 0.25em 0.5em;
+		margin-right: $border-radius-large;
+		border-bottom-left-radius: $border-radius-default;
+		border-bottom-right-radius: $border-radius-default;
+		color: $text-color-inverse;
+
+		a {
+			color: inherit;
+			text-decoration-thickness: 1px;
+			&:hover {
+				text-decoration-thickness: 3px;
+			}
+		}
+	}
+}
+
 .no-border-radius-top {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;

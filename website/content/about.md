@@ -1,11 +1,21 @@
 +++
+template = "about.html"
 +++
 
 # About Us
 
-## Meet the Mixologist
+<figure>
+    <img src="/us.jpg" alt="Photo of Sasha and Nikki Chedygov">
+    <figcaption>Photo by <a href="https://www.instagram.com/emmacamenzind/">@emmacamenzind</a></figcaption>
+</figure>
 
-Hi! I'm Sasha, owner and chief bartender at The Minimal Mixologist. I'm a software engineer by trade but I've been slinging sensational craft cocktails for parties and events for several years. I like to shake/stir/blend unlikely but delicious flavor combinations that will leave you wanting more—enough to break your dry month! Whether you're craving a tried and true classic, a modern showstopper, a crazy tiki drink, or an alcohol-free libation, I've got you covered.
+## Meet the Mixologists
+
+Hi! We're the husband and wife duo behind The Minimal Mixologist.
+
+Sasha (left) is the Chief Mixologist. A software engineer by trade, he brings his meticulous engineering mindset to the bar for every libation he creates. He's been slinging sensational craft cocktails for parties and events for several years and likes to shake/stir/blend unlikely but delicious flavor combinations. (Oat milk and stout in a Mai Tai? Why not!) Whether you're craving a tried and true classic, a modern showstopper, a crazy tiki drink, or an alcohol-free libation, he's got you covered.
+
+Nikki (right) is the Chief Taster and keeps the ship afloat. While Sasha plays mad scientist with his syrups and tinctures, she makes sure that our clients are happy and the lights stay on. If you've ever been to an event we've hosted or bartended and thought, "Man, they're really on top of it!", it's entirely because of her.
 
 ## Our Ethos
 
@@ -21,7 +31,7 @@ Here are some examples of our sustainability practices:
 
 ### No Hidden Fees, No Surprises
 
-As customers, we hate businesses that charge bullshit fees and are generally opaque with their pricing. That's why our [pricing structure](/pricing) is as transparent as possible, and we will never surprise you with additional costs that you weren't expecting.
+As customers, we hate businesses that nickel-and-dime you with bullshit fees and are generally opaque with their pricing. That's why our [pricing structure](/pricing) is as transparent as possible, and we will never surprise you with additional costs that you weren't expecting.
 
 ---
 
