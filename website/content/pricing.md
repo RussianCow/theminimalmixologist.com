@@ -22,7 +22,7 @@ If you need some cocktail flair in your life, this is where you'll be. Any cockt
 
 ### The Ones That Don't Give You a Hangover <span class="right">$6+</span>
 
-Non-alcoholic cocktail options are available for anyone not drinking for any reason (or that friend who needs to reign it in a bit). Pricing on these drinks varies, so please [get in touch](mailto:hello@theminimalmixologist.com) for more information.
+Non-alcoholic cocktail options are available for anyone not drinking for any reason (or that friend who needs to reign it in a bit). Pricing on these drinks varies, so please [get in touch](/contact) for more information.
 
 ### Beer, Wine, and Other Stuff <span class="right">20% markup</span>
 
@@ -32,4 +32,4 @@ We will happily supply non-cocktail beverages at a 20% markup over retail price.
 
 ## Convinced Yet?
 
-Check out the [fine print](/pricing/fine-print) or [book us now](mailto:hello@theminimalmixologist.com) for your next event.
+Check out the [fine print](/pricing/fine-print) or [book us now](/contact) for your next event.

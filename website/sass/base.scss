@@ -156,24 +156,6 @@ main {
 	height: 40px;
 }
 
-textarea {
-	display: block;
-	width: 100%;
-	resize: vertical;
-	min-height: 150px;
-	background-color: $text-color-primary;
-	font-family: $font-serif;
-	font-size: pixels-to-rem(18);
-	box-sizing: border-box;
-	padding: 0.5em;
-	border: 0;
-	border-radius: $border-radius-default;
-
-	&:focus {
-		outline: 4px solid $fg-color-primary;
-	}
-}
-
 a:has(> button) {
 	display: inline-block;
 }
@@ -235,14 +217,49 @@ figure {
 	}
 }
 
-.no-border-radius-top {
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
-}
-.no-border-radius-bottom {
-	border-bottom-left-radius: 0;
-	border-bottom-right-radius: 0;
-}
-.border-bottom {
-	border-bottom: 1px solid $fg-color-primary;
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	label {
+		display: block;
+		font-size: pixels-to-rem(18);
+		font-weight: bold;
+		font-family: $font-sans;
+	}
+
+	input {
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+		background-color: $text-color-primary;
+		font-family: $font-serif;
+		font-size: pixels-to-rem(18);
+		padding: 0.5em;
+		border: 0;
+		border-radius: $border-radius-default;
+
+		&:focus {
+			outline: 4px solid $fg-color-primary;
+		}
+	}
+
+	textarea {
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+		resize: vertical;
+		min-height: 150px;
+		background-color: $text-color-primary;
+		font-family: $font-serif;
+		font-size: pixels-to-rem(18);
+		padding: 0.5em;
+		border: 0;
+		border-radius: $border-radius-default;
+
+		&:focus {
+			outline: 4px solid $fg-color-primary;
+		}
+	}
 }

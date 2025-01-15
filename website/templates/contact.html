@@ -9,8 +9,60 @@
 		{{ page.content | safe }}
 	</div>
 
-	<form>
-		<textarea class="no-border-radius-bottom border-bottom" name="message"></textarea>
-		<button class="no-border-radius-top">Send</button>
+	<form id="contact-form">
+		<input type="hidden" name="access_key" value="73c7f79d-d607-435b-8227-683fd1afe2ba">
+
+		<div class="field">
+			<label for="contact-form-email">Your email address</label>
+			<input name="email" type="email" placeholder="email@yourcompany.com" required id="contact-form-email"></input>
+		</div>
+
+		<div class="field">
+			<label for="contact-form-body">Tell us about your event!</label>
+			<textarea name="body" id="contact-form-body"></textarea>
+		</div>
+
+		<button type="submit">Send</button>
 	</form>
+
+	<div id="success-message">
+		Thanks! We will reach out shortly!
+	</div>
+
+	<div id="error-message">
+		We're so sorry, but something went wrong with this form. Feel free to refresh the page and try again. If it still doesn't work, contact us at <a href="mailto:hello@theminimalmixologist.com">hello@theminimalmixologist.com</a> instead. We apologize for the inconvenience.
+	</div>
+
+	<script>
+		/** @type HTMLFormElement */
+		const form = document.getElementById("contact-form")
+		form.addEventListener("submit", async (event) => {
+			event.preventDefault()
+			const button = form.getElementsByTagName("button")[0]
+			button.disabled = true
+			button.innerText = "Sending..."
+			const formData = new FormData(form)
+			const json = JSON.stringify(Object.fromEntries(formData))
+			try {
+				await fetch('https://submit-form.com/qqq1qVXUG', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+						'Accept': 'application/json',
+					},
+					body: json,
+				})
+			} catch (error) {
+				const errorContainer = document.getElementById("error-message")
+				errorContainer.style.display = "block"
+				return
+			} finally {
+				form.style.display = "none"
+				form.elements.email.value = ""
+				form.elements.body.value = ""
+			}
+			const successContainer = document.getElementById("success-message")
+			successContainer.style.display = "block"
+		})
+	</script>
 {% endblock content %}

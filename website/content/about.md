@@ -37,4 +37,4 @@ As customers, we hate businesses that nickel-and-dime you with bullshit fees and
 
 ## Have we sold you yet?
 
-[Contact us](mailto:hello@theminimalmixologist.com) to learn how we can make your event more memorable!
+[Contact us](/contact) to learn how we can make your event more memorable!

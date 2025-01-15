@@ -16,4 +16,4 @@ Minor modifications to The Classics will be considered on a case by case basis.
 
 ## Let's do this!
 
-If you have any more questions, please don't hesitate to [reach out](mailto:hello@theminimalmixologist.com), even if you are not quite ready to book.
+If you have any more questions, please don't hesitate to [reach out](/contact), even if you are not quite ready to book.
