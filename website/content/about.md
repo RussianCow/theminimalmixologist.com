@@ -1,5 +1,6 @@
 +++
 template = "about.html"
+title = "About Us"
 +++
 
 # About Us

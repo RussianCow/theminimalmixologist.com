@@ -7,7 +7,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>{% block title %}The Minimal Mixologist{% endblock %}</title>
+		<title>{% block title %}{% if page.title %}{{ page.title }} - {% endif %}The Minimal Mixologist{% endblock %}</title>
 		<link rel="stylesheet" href="/base.css" />
 		<link rel="icon" href="/logo.svg" />
 		<script src="/instant-page-5.2.0.js" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z" defer></script>

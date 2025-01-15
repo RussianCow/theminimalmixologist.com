@@ -1,5 +1,6 @@
 +++
 template = "pricing.html"
+title = "Pricing - The Fine Print"
 +++
 
 [&lt; Back to Pricing](/pricing)

@@ -1,5 +1,6 @@
 +++
 template = "pricing.html"
+title = "Pricing"
 +++
 
 # Pricing
