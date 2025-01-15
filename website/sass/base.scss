@@ -9,7 +9,10 @@ body {
 	font-family: $font-serif;
 	color: $text-color-primary;
 	line-height: 1.5;
-	padding-bottom: 20px;
+	min-height: 100vh;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
 }
 
 a {
@@ -47,6 +50,7 @@ hr {
 }
 
 nav {
+	flex: 0 0 auto;
 	// background-color: $bg-color-primary;
 	// background-color: #87CBB9;
 	border-bottom: 2px solid $fg-color-primary;
@@ -107,7 +111,16 @@ nav {
 }
 
 main {
-	padding-top: 20px;
+	flex: 1 1 auto;
+	padding: 20px 0 40px;
+}
+
+footer {
+	flex: 0 0 auto;
+	padding: 15px;
+	border-top: 2px solid $fg-color-primary;
+	text-align: center;
+	color: $text-color-secondary;
 }
 
 .page-width {
