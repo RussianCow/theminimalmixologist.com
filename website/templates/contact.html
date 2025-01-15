@@ -69,6 +69,7 @@
 		let hasEnteredValidEmail = false
 		form.elements.email.addEventListener("keydown", (event) => {
 			if (!hasEnteredValidEmail && event.target.validity.valid) {
+				hasEnteredValidEmail = true
 				window.dataLayer = window.dataLayer || []
 				window.dataLayer.push({
 					event: 'contactFormValidEmailEntered',
