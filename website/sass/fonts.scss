@@ -10,14 +10,14 @@
 }
 
 @font-face {
-	font-family: "Lora";
-	src: url("/fonts/Lora-Regular.ttf") format("truetype");
+	font-family: "Literata Book";
+	src: url("/fonts/LiterataBook.otf") format("opentype");
 }
 @font-face {
-	font-family: "Lora";
+	font-family: "Literata Book";
 	font-weight: bold;
-	src: url("/fonts/Lora-Bold.ttf") format("truetype");
+	src: url("/fonts/LiterataBook-Bold.otf") format("opentype");
 }
 
-$font-serif: "Lora", "Cambria", "Cochin", "Georgia", "Times", "Times New Roman", serif;
+$font-serif: "Literata Book", "Cambria", "Cochin", "Georgia", "Times", "Times New Roman", serif;
 $font-sans: "Caviar Dreams", "Franklin Gothic Medium", "Arial Narrow", "Arial", sans-serif;
