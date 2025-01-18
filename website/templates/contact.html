@@ -34,9 +34,16 @@
 	</div>
 
 	<script>
+		// In case the Piwik analytics code isn't loaded.
+		window.dataLayer = window.dataLayer || []
+
 		/** @type HTMLFormElement */
 		const form = document.getElementById("contact-form")
 		form.addEventListener("submit", async (event) => {
+			window.dataLayer.push({
+				event: 'contactFormSubmitted',
+			})
+
 			event.preventDefault()
 			const button = form.getElementsByTagName("button")[0]
 			button.disabled = true
@@ -70,7 +77,6 @@
 		form.elements.email.addEventListener("keydown", (event) => {
 			if (!hasEnteredValidEmail && event.target.validity.valid) {
 				hasEnteredValidEmail = true
-				window.dataLayer = window.dataLayer || []
 				window.dataLayer.push({
 					event: 'contactFormValidEmailEntered',
 				})
