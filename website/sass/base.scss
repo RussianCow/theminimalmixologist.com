@@ -121,6 +121,22 @@ footer {
 	border-top: 2px solid $fg-color-primary;
 	text-align: center;
 	color: $text-color-secondary;
+
+	.logos {
+		margin-bottom: 10px;
+
+		a {
+			display: inline-flex;
+			gap: 0.25em;
+			text-decoration: none;
+			font-family: $font-sans;
+			font-size: pixels-to-rem(18);
+
+			img {
+				width: 1.5em;
+			}
+		}
+	}
 }
 
 .page-width {
