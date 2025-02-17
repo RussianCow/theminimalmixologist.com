@@ -13,13 +13,28 @@
 		<input type="hidden" name="access_key" value="73c7f79d-d607-435b-8227-683fd1afe2ba">
 
 		<div class="field">
+			<label for="contact-form-name">Your name</label>
+			<input name="name" type="text" placeholder="Jane Doe" required id="contact-form-name"></input>
+		</div>
+
+		<div class="field">
 			<label for="contact-form-email">Your email address</label>
 			<input name="email" type="email" placeholder="email@yourcompany.com" required id="contact-form-email"></input>
 		</div>
 
 		<div class="field">
+			<label for="contact-form-guests">How many guests will be attending? <small>(optional)</small></label>
+			<input name="guests" type="text" placeholder="100" id="contact-form-guests"></input>
+		</div>
+
+		<div class="field">
+			<label for="contact-form-date">When is your event? <small>(optional)</small></label>
+			<input name="date" type="date" id="contact-form-date"></input>
+		</div>
+
+		<div class="field">
 			<label for="contact-form-body">Tell us about your event!</label>
-			<textarea name="body" id="contact-form-body"></textarea>
+			<textarea name="body" id="contact-form-body" required></textarea>
 		</div>
 
 		<button type="submit">Send</button>
